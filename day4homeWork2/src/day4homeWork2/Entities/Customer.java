@@ -2,9 +2,9 @@ package day4homeWork2.Entities;
 
 import java.time.LocalDate;
 
-import day4homeWork2.Abstract.ICustomerService;
+import day4homeWork2.Abstract.CustomerService;
 
-public class Customer implements ICustomerService{
+public class Customer implements CustomerService{
 	int id;
 	String firstName;
 	String lastName;
